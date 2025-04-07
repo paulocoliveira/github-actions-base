@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
+  schedule:
+    - cron '11 12 * * *'
 jobs:
   test-execution:
     timeout-minutes: 60
