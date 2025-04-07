@@ -1,0 +1,27 @@
+{
+    "name": "ready-to-use-framework",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:debug": "PWDEBUG=console playwright test"
+    },
+    "keywords": [
+        "playwright",
+        "testing",
+        "automation"
+    ],
+    "author": "Your name",
+    "license": "ISC",
+    "type": "module",
+    "description": "A Playwright ready to use framework for rapid automation testing.",
+    "devDependencies": {
+        "@playwright/test": "^1.51.1",
+        "@types/node": "^22.13.17"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^9.6.0",
+        "dotenv": "^16.4.7",
+        "playwright": "^1.51.1"
+    }
+}
